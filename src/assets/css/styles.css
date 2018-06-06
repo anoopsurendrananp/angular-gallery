@@ -1,0 +1,142 @@
+.home {
+  text-align: center;
+  background-image: url('http://jungutah.com/wp-content/themes/jungutah/images/gallery-2.jpg');
+  width: 100%;
+  height: 600px;
+}
+
+.dashboard {
+    text-align: center !important; 
+    /* background-image: url('https://i.pinimg.com/originals/cc/f9/0f/ccf90ffcf3e870bada58806fd2df5914.jpg'); */
+    width: 100%;
+    height: 1300px;
+}
+
+.pull-left {
+    float: right;
+    margin-right: 21px;
+    z-index: 999;
+    background-color: rgba(142, 165, 21, 0.85);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-right: 36px;
+}
+
+h2 {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+}
+
+.overlay {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+}
+
+.min-ht {
+    min-height: 285px !important;
+    float: left;
+    margin: 0 50px;
+    padding-top: 30px;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #FD5BFF;
+}
+
+a:hover { 
+    text-decoration: none;
+}
+
+.left { 
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right {
+    float: right; 
+    width: auto;
+    margin-left: 10px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+blockquote {
+    margin: 20px 0; 
+    padding: 10px 20px 0 20px;
+    border: 1px solid #E5E5DB;
+    background: #FFF;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;
+}
+
+ol {
+    margin: 8px 0 22px 20px;    
+}
+
+ol li {
+     margin: 0 0 11px 0;
+}
+
+#menubar {
+    width: 100%;
+    height: 72px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 0;
+    background: #5B2660 url(/assets/images/style-images/wood.png) repeat-x;
+} 
+
+ul#menu, ul#menu li { 
+    float: right;
+    margin: 0; 
+    padding: 0;
+}
+
+ul#menu li {
+    list-style: none;
+}
+
+ul#menu li a { 
+    letter-spacing: 0.1em;
+    font: normal 100% 'lucida sans unicode', arial, sans-serif;
+    display: block; 
+    float: left; 
+    height: 37px;
+    padding: 29px 26px 6px 26px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover { 
+    color: #FFF;
+    background: #3F1B41 url(/assets/images/style-images/menu_select.png) repeat-x;
+}
+

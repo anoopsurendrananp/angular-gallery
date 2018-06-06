@@ -1,0 +1,5 @@
+<div class="dashboard">
+  <div *ngFor="let image of pics; let i= index" class="min-ht">
+    <img height="250" width="250" [src]= "image.src" (click)="viewDetails(image.key)">
+  </div>
+</div>

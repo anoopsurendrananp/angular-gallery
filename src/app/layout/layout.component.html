@@ -1,0 +1,13 @@
+<div id="menubar">
+    <ul id="menu">
+      <li><a title="Contact Us">Contact Us</a></li>
+      <li><a title="Sign In">Sign In</a></li>
+      <li><a title="Dashboard" [routerLink]="['/dashboard/view']">Dashboard</a></li>
+      <li><a title="Gallery" [routerLink]="['/gallery']">Gallery</a></li>
+      <li><a title="Home" [routerLink]="['/home']">Home</a></li>
+    </ul>
+</div>
+
+<div>
+  <router-outlet> </router-outlet>
+</div>
